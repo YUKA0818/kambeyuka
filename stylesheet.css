@@ -1,0 +1,438 @@
+body {
+    color: #1364a5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+a {
+    text-decoration: none;
+    color: #1364a5;
+}
+a:hover {
+    opacity: 0.7;
+}
+.container {
+    width: 90%;
+    max-width: 980px;
+    margin: auto;
+}
+
+.clear::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+/*////////////////////////////////
+header
+////////////////////////////////*/
+
+header {
+    padding: 20px 0 15px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-right {
+    float: right;
+}
+
+.top {
+    background-color: lightblue;
+    height: 400px;
+}
+
+.header-nav {
+}
+
+.header-nav-item {
+    float: left;
+    margin-left: 50px;
+}
+
+.header-nav-item a {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+/*////////////////////////////////
+top
+////////////////////////////////*/
+.top {
+    background-image: url(../img/michi.jpg);
+    background-size: cover;
+    padding: 80px 0;
+
+}
+
+.top-title {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.top-subtitle {
+    font-size: 18px;
+    text-align: center;
+}
+
+/*////////////////////////////////
+section共通クラス
+////////////////////////////////*/
+.section {
+    padding: 60px 0;
+    margin-top: 5%;
+}
+
+.section-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/*////////////////////////////////
+about
+////////////////////////////////*/
+.about-left {
+    float: left;
+    width: 48%;
+}
+
+.about-right {
+    float: right;
+    width: 48%;
+    margin-top: 60px;
+}
+/*////////////////////////////////
+course
+////////////////////////////////*/
+.course {
+    background-color: #F5FFFA;
+    margin: 5%;
+}
+.course-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.course-item {
+    width: 30%;
+}
+
+.course-item2 {
+    width: 35%;
+    margin: auto;
+}
+
+.course-item3 {
+    padding-left: 43%;
+    margin-bottom: 3%;
+}
+
+.c-marker-label {
+    font-family: 'Caveat', cursive !important;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(85%, transparent), color-stop(0%, #9CE0E6)) repeat scroll 0 0;
+    background: linear-gradient(transparent 85%, #9CE0E6 0%) repeat scroll 0 0;
+    background-color: #FFFFFF
+}
+.cml {
+    text-align: center;
+    font-size: 20px;
+}
+
+/*////////////////////////////////
+contact
+////////////////////////////////*/
+.contact-message {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.container2 {
+    word-break: keep-all;
+    width: 700px;
+    border; 3px solid #d6d6d6;
+    font-size: 20px;
+    display: block;
+    margin :auto;
+    padding: 15px;
+    border-radius :10px;
+}
+
+.container2-btn {
+    padding: 10px 50px;
+    display: inline-block;
+    background-color:#1364a5;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius :80px;
+    border: none;
+}
+
+.container3 {
+    width: 700px;
+    font-size: 20px;
+    display: block;
+    margin :auto;
+    padding: 15px;
+    border-radius :30px;
+    margin-bottom :20px;
+}
+
+.container3-btn {
+    padding: 10px 50px;
+    display: inline-block;
+    background-color:#1364a5;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius :80px;
+    border: none;
+}
+
+
+
+
+.btn {
+    padding: 10px 50px;
+    display: inline-block;
+    background-color:#1364a5;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius :4px;
+    border: none;
+}
+
+.btn:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.btn-register {
+    background-color: #ec6d64;
+    display: block;
+    margin: auto;
+}
+
+#page_top{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background: #3f98ef;
+    opacity: 0.6;
+    border-radius: 50%;
+}
+#page_top a{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+}
+#page_top a::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f102';
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -5px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+}
+
+
+.text-area {
+    padding: 20px 150px;
+}
+
+
+/*////////////////////////////////
+footer
+////////////////////////////////*/
+footer {
+    background-color: #1364a5;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.copyright {
+    font-size: 12px;
+    float: right;
+}
+
+
+
+/*////////////////////////////////
+スマホ用の表示
+////////////////////////////////*/
+@media only screen and (max-width: 767px) {
+
+    .clear::after {
+        content: none;
+    }
+
+/*////////////////////////////////
+headerのcss
+////////////////////////////////*/
+header {
+    padding: 20px 0 15px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-right {
+    float: right;
+}
+
+.top {
+    background-color: lightblue;
+    height: 400px;
+    width: 100%;
+}
+
+.header-nav {
+}
+
+.header-nav-item {
+    float: left;
+    margin-left: 100px;
+}
+
+.header-nav-item a{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 36px;
+}
+}
+@media only screen and (max-width:767px){
+
+    .header-left {
+        float: none;
+    }
+
+    .header-title {
+        text-align: center;
+    }
+
+    .header-right {
+        float: none;
+    }
+    .header-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-nav-item {
+        float: none;
+        margin: 0;
+    }
+
+    .top {
+        padding: 120px 0;
+    }
+
+    .top-title {
+        font-size: 32px;
+        margin: auto;
+    }
+
+    .top-subtitle {
+        font-size: 14px;
+        margin: auto;
+    }
+
+  
+    .section {
+        padding: 40px 0;
+        margin-top: 5%;
+    }
+
+    .screen-title {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .section p {
+        font-size: 14px;
+    }
+
+    .about-left {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .about-right {
+        float: none;
+        width: 100%;
+    }
+
+    .float-right {
+        float: none;
+        width: 100%;
+
+    }
+
+    .course-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .course img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .container2 {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .container3 {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .copyright {
+        font-size: 10px;
+        float: none;
+        text-align: center;
+    }
+
+
+    .text-area {
+        padding: 20px 100px;
+        width: 100%;
+    }
+}
