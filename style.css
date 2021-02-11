@@ -71,7 +71,7 @@ header {
 top
 ////////////////////////////////*/
 .top {
-    background-image: url(../img/michi.jpg);
+    background-image: url(michi.jpg);
     background-size: cover;
     padding: 80px 0;
 
